@@ -1,0 +1,53 @@
+# Unity生成的临时文件和目录
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# VS/VSCode/Rider生成的文件
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity3D生成的meta文件
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Unity3D生成的崩溃报告
+sysinfo.txt
+
+# Builds（构建输出）
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Excel临时文件（避免Excel打开时生成的临时文件）
+~$*.xlsx
+~$*.xls
+
+# 二进制文件（因为这些可以从Excel重新生成）
+/Assets/Resources/DataTable/*.bytes
+/Assets/Resources/DataTable/*.bytes.meta
+
+# 自动生成的C#脚本（因为这些可以从Excel重新生成）
+/Assets/Scripts/DataTable/*.cs
+/Assets/Scripts/DataTable/*.cs.meta
