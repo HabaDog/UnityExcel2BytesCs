@@ -1,6 +1,16 @@
-# Visual Studio / VS Code
+# Unity生成的临时文件和目录
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# VS/VSCode/Rider生成的文件
 .vs/
 .vscode/
+.idea/
 *.csproj
 *.unityproj
 *.sln
@@ -17,22 +27,12 @@
 *.VC.db
 .vsconfig
 
-# Unity generated
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Uu]ser[Ss]ettings/
-/[Mm]emoryCaptures/
-
-# Asset meta data
+# Unity3D生成的meta文件
 *.pidb.meta
 *.pdb.meta
 *.mdb.meta
 
-# Unity3D generated file on crash reports
+# Unity3D生成的崩溃报告
 sysinfo.txt
 
 # Builds
@@ -41,12 +41,6 @@ sysinfo.txt
 *.unitypackage
 *.app
 
-# Crashlytics generated file
-crashlytics-build.properties
-
-# Packed Addressables
-/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
-
-# Temporary auto-generated Android Assets
-/[Aa]ssets/[Ss]treamingAssets/aa.meta
-/[Aa]ssets/[Ss]treamingAssets/aa/*
+# Excel临时文件
+~$*.xlsx
+~$*.xls
